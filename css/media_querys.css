@@ -1,0 +1,49 @@
+@media (max-width: 640px) {
+	header > a, header > nav {
+		display: none;
+	}
+	.menuMobile > a, .menuMobile > nav {
+		display:flex;
+	}
+	header > button{
+		display:flex;
+	}
+	
+	.hero > h1{
+		font-size:2rem;
+	}
+	.hero > p{
+		width:90%;
+		font-size:1rem;
+	}
+
+	.hero > button{
+		width:20%;
+		font-size:.85rem;
+	}
+		
+	.funcionalidades, .funcionamento,  .container-company{
+		justify-content:center;
+		padding-left:0;
+		padding-right:0;
+	}
+	.funcionalidades > .container , .funcionamento > .container , .container-company > .container, .subSection > .container{
+		flex-direction:column;
+		gap:1.5rem;
+	}
+	.funcionalidades > .container > .funcionalidade, .funcionamento > .container > div, .container-company > .container > div, .subSection > .container > div, 
+	.subSection > .container > form{
+		width:90%;
+	}
+	.contato{
+		height:100%;
+	}
+	.subSection{
+		margin:2rem;
+		padding-bottom:1rem;
+	}
+	.icon-whatsapp{
+		width:8%;
+		left:90%;
+	}
+}

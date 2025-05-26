@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/media_querys.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>AgendaFacil</title>
+</head>
+<body >
+
+<!-- menu default -->
+    <header >
+        <a href="#"><img src="images/logo-white.png" alt="logo agendaFacil" style="width:50%"></a>
+        <nav>
+            <ul class="flex items-center gap-4 ">
+                <li class="text-base hover:underline hover:cursor-pointer"><a href="#funcionalidades">Funcionalidades</a></li>
+                <li class="text-base hover:underline hover:cursor-pointer"><a href="#funcionamento">Como funciona</a></li>
+                <li class="text-base hover:underline hover:cursor-pointer"><a href="#vantagens">Vantagens</a></li>    
+                <li class="text-base hover:underline hover:cursor-pointer"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+		<button id="btnOpenMenu"><i class="fa-solid fa-bars"></i></button>
+    </header>
+	<!-- menu mobile -->
+	<header id="menuMobile" class="menuMobile">
+		<a href="#"><img src="images/logo-white.png" alt="logo agendaFacil" style="width:60%"></a>
+		<i id="btnCloseMenu" class="fa-solid fa-circle-xmark"></i> 
+		
+		<nav>
+            <ul class="flex items-center gap-4 ">
+                <li class="text-base hover:underline hover:cursor-pointer"><a href="#funcionalidades">Funcionalidades</a></li>
+                <li class="text-base hover:underline hover:cursor-pointer"><a href="#funcionamento">Como funciona</a></li>
+                <li class="text-base hover:underline hover:cursor-pointer"><a href="#vantagens">Vantagens</a></li>    
+                <li class="text-base hover:underline hover:cursor-pointer"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main >    
+    <!-- hero -->
+        <section class="hero ">
+            <!-- <div class=" flex flex-col gap-8 p-4 text-center"> -->
+                <img src="images/logo-white.png" alt="">
+                <h1 >A facilidade que cabe na sua agenda!</h1>
+                <p >Com apenas alguns cliques, seus clientes podem reservar horários convenientes, garantindo um atendimento personalizado e seguro. </p>
+                <button ><a href="#funcionalidades">Saiba mais</a></button>
+            <!-- </div> -->
+        </section>  
+    
+        <!-- servicos -->
+        <section class="funcionalidades" id="funcionalidades" >
+            <h2>Principais funcionalidades</h2>
+    
+            <!-- container serviços -->
+            <div class="container">
+    
+                <div class=" funcionalidade ">
+                    <i class='bx bx-desktop'  ></i>
+                    <h3 >Agendamento Online</h3>
+                    <p >Seus clientes podem agendar serviços diretamente pelo site ou aplicativo, de forma prática e rápida.</p>
+                </div>
+    
+                <div class=" funcionalidade">
+                    <i class='bx bx-calendar-check '></i>
+                    <h3 >Gestão de Agenda</h3>
+                    <p >Mantenha sua agenda organizada e atualizada, com recursos de confirmação e lembretes.</p>
+                </div>
+    
+                <div class=" funcionalidade">
+                    <i class='bx bx-line-chart'   ></i>
+                    <h3 >Relatórios e Análises</h3>
+                    <p >Obtenha insights valiosos sobre o desempenho do seu negócio com nossos relatórios gerenciais.</p>
+                </div>
+            
+            </div>
+    
+        </section>
+    
+        <section id="funcionamento" class="funcionamento">
+            <h2 >Como funciona o agendamento</h2>
+    
+            <div class="container">
+    
+                <div >
+                    <div class="bullet-landing " id="bullet1">1</div>
+                    <h3 >Escolha o Serviço</h3>
+                    <p >Seus clientes selecionam o serviço desejado e verificam a disponibilidade.</p>
+                </div>
+    
+                <div >
+                    <div class="bullet-landing " id="bullet2">2</div>
+                    <h3 >Agende o Horário</h3>
+                    <p >O cliente escolhe a data e o horário que melhor se encaixa em sua agenda.</p>
+                </div>
+    
+                <div >
+                    <div class="bullet-landing last " id="bullet3">3</div>
+                    <h3 >Confirme o Agendamento</h3>
+                    <p >O cliente recebe uma confirmação e lembretes sobre o serviço agendado.</p>
+                </div>
+    
+            </div>
+    
+        </section>
+    
+        <section id="vantagens" class="container-company">
+            <h2 >Vantagens para os profissionais</h2>
+            
+            <div class="container">
+    
+               <div class="box">
+                    <i class='bx bx-calendar'  ></i>
+                    <h3 >Agenda organizada</h3>
+                    <p >Mantenha sua agenda sincronizada e atualizada com facilidade.</p>
+               </div>
+    
+               <div class="box">
+                    <i class='bx bx-group'  ></i>
+                    <h3 >Equipe Eficiente</h3>
+                    <p >Gerencie sua equipe de forma integrada e otimize os recursos.</p>
+               </div>
+    
+               <div class="box ">
+                    <i class='bx bx-bar-chart-square'  ></i>
+                    <h3 >Insights Valiosos</h3>
+                    <p>Obtenha dados e relatórios para tomar decisões mais assertivas.</p>
+               </div>
+    
+               <div class="box">
+                    <i class='bx bxs-dollar-circle'  ></i>
+                    <h3>Maior Faturamento</h3>
+                    <p>Aumente seu faturamento com agendamentos otimizados.</p>
+               </div>
+    
+            </div>
+        </section>
+    
+        <section id="contato" class="contato bg-contato">
+            <div class="subSection box-no-hover">
+				<div>
+					<h2 >Faça Parte do Nosso Negócio</h2>
+					<h4>Tem interesse em ser nosso parceiro ou fazer parte da nossa plataforma?</h4>
+				</div>
+				
+				<div class="container">
+					<div>
+						<h3>Se você é profissional ou empresa e quer expandir seus serviços conosco, entre em contato:</h3>
+							
+						<p><i class="fa-regular fa-envelope" style="margin-right:.5rem;"></i>E-mail: contato@seudominio.com</p>
+						<p><i class="fa-brands fa-whatsapp" style="margin-right:.5rem;"></i>WhatsApp: (11) 91234-5678</p>
+					</div>
+					
+					
+					<form id="formContato">
+						<fieldset>
+							
+							<label class="campo">
+								<span>Nome</span>
+								<input type="text"  id="inputNome"/>
+								<span id="messageNome" class="msg"></span>
+							</label>
+							
+							<label class="campo">
+								<span>Email</span>
+								<input type="text" id="inputEmail"/>
+								<span id="messageEmail" class="msg"></span>
+								
+							</label>
+							
+							<label class="campo">
+								<span>Mensagem</span>
+								<textarea   name="story" rows="5" cols="50" id="inputMensagem">
+								</textarea>
+								<span id="messageMensagem" class="msg"></span>
+							</label>
+					
+							
+							<button>Enviar</button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+        </section>
+    
+
+       
+        <!-- footer -->
+        <footer>
+            <a href="/"><img src="images/logo-white.png" alt="logo agendaFacil" style="width:70%;"></a>
+        
+            <div >
+                <nav >
+                    <ul>
+                        <li ><a href="#funcionalidades">Funcionalidades</a></li>
+                        <li><a href="#funcionamento">Como funciona</a></li>
+                        <li ><a href="#vantagens">Vantagens</a></li>    
+                        <li ><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+            <div class="line">
+                <h3 >Desenvolvido por vitor hugo</h3>
+                <h3 >Direitos de imagem freepick</h3>
+            </div>
+        </footer>
+    </main>
+	
+	<a><img class="icon-whatsapp" src="images/whatsapp.png" alt="icone whatsapp"></img></a>
+</body>
+	<script src="js/index.js" ></script>
+</html>
